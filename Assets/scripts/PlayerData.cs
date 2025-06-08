@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
-    //플레이어 스태이터스 관리 
-    //HP,HP재생 공격력 방어력 속도 스킬가속%
-
-    public int PlayerHp = 10;
-    public int PlayerReHP = 10;
-    public int PlayerATK = 5;
-    public int PlayerDP = 5;
-    public int PlayerSPD = 3;
-    public int PlayerCT = 0;
+    public int PlayerHp = 10; 
+    public int PlayerReHp = 10;
+    public int Playeratk = 5;
+    public int Playerdef = 5;
+    public int PlayerSpd = 3;
+    public int PlayerCt = 0;
 
     // Start is called before the first frame update
     void Start()
